@@ -1,5 +1,5 @@
-def recognize_odd_even(number):
+def odd_even(number):
     if number % 2 == 0:
         return "Even"
-    else:
+    elif number % 2 != 0:
         return "Odd"
